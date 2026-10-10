@@ -1,1 +1,1 @@
-# whanos-devsecops
+# whanos

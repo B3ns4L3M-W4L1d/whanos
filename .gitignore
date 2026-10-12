@@ -1,0 +1,14 @@
+.DS_Store
+*.log
+*.retry
+.env
+*.pem
+*.key
+*.crt
+htpasswd
+kubeconfig
+admin.conf
+.vault_pass
+.vault_password
+*.pdf
+/test

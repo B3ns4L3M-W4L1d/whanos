@@ -1,0 +1,18 @@
+FROM gcc:13.2 AS build
+
+SHELL ["/bin/bash", "-c"]
+
+WORKDIR /app
+
+COPY . .
+
+RUN make
+
+
+FROM debian:bookworm-slim
+
+WORKDIR /app
+
+COPY --from=build /app/compiled-app .
+
+CMD ["./compiled-app"]

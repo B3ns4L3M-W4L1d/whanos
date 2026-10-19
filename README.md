@@ -30,7 +30,7 @@ C, Java, JavaScript, Python, Rust
 
 ## Avancement
 
-- [ ] Images Docker (standalone et base) pour C, Java, JavaScript, Python et Rust
+- [ ] Images Docker (standalone et base) pour ~~C~~, ~~Java~~, JavaScript, Python et ~~Rust~~
 - [ ] Registre Docker local
 - [ ] Jenkins configuré en code
 - [ ] Job `link-project` (création automatique d'un job de surveillance)

@@ -11,4 +11,5 @@ admin.conf
 .vault_pass
 .vault_password
 *.pdf
-/test
+/tests
+target/

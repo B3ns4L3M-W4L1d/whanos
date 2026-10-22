@@ -1,0 +1,6 @@
+{
+  "name": "whanos-js-hello",
+  "version": "1.0.0",
+  "main": "app/index.js",
+  "private": true
+}
